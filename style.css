@@ -1,3 +1,35 @@
 body {
-    background-color: burlywood;
+    background-image: linear-gradient(burlywood, midnightblue);
+    background-repeat: no-repeat;
+    height: 4000px;
 }
+
+/* #moon-path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: dash 1s linear forwards;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+#sun-path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: dash 4s linear forwards;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  } */
