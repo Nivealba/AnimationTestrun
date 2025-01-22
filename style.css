@@ -1,10 +1,13 @@
 body {
     background-image: linear-gradient(burlywood, midnightblue);
     background-repeat: no-repeat;
-    height: 4000px;
+    height: 1100px;
+    cursor: url('https://fontawesome.com/icons/circle-dot?f=classic&s=thin'), auto;
 }
 
-/* #moon-path {
+/* vvv Auto Plays */
+
+#moon-path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: dash 1s linear forwards;
@@ -32,4 +35,4 @@ body {
     to {
       stroke-dashoffset: 0;
     }
-  } */
+  }

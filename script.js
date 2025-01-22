@@ -35,4 +35,4 @@ window.addEventListener("scroll", function(e) {
     path.style.strokeDasharray = "none";
   } else {
     path.style.strokeDasharray = pathLength + ' ' + pathLength;
-  }
+  };
