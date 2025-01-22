@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(burlywood, midnightblue);
     background-repeat: no-repeat;
     height: 1100px;
-    cursor: url('https://fontawesome.com/icons/circle-dot?f=classic&s=thin'), auto;
+    cursor: crosshair;
 }
 
 /* vvv Auto Plays */
@@ -22,6 +22,10 @@ body {
     }
   }
 
+  /* #moon-path:hover {
+    fill: aliceblue;
+  } */
+
 #sun-path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
@@ -36,3 +40,7 @@ body {
       stroke-dashoffset: 0;
     }
   }
+
+  /* #sun-path:hover {
+    fill: rgb(47, 13, 0);
+  } */
