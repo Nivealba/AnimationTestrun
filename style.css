@@ -26,6 +26,18 @@ body {
     fill: aliceblue;
   } */
 
+  .moonstx {
+    font-size: larger;
+    color: azure;
+  }
+
+  .moonstx:hover {
+    cursor: cell;
+    text-decoration: underline;
+  }
+
+  .moonstx:p
+
 #sun-path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
@@ -44,3 +56,7 @@ body {
   /* #sun-path:hover {
     fill: rgb(47, 13, 0);
   } */
+
+  .sunstx {
+    color: bisque;
+  }
