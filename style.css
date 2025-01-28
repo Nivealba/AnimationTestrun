@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(burlywood, midnightblue);
+    background-image: linear-gradient(rgb(190, 179, 156), midnightblue);
     background-repeat: no-repeat;
     height: 100vh;
     cursor: crosshair;
