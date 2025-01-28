@@ -1,16 +1,31 @@
 body {
     background-image: linear-gradient(burlywood, midnightblue);
     background-repeat: no-repeat;
-    height: 1100px;
+    height: 100vh;
     cursor: crosshair;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* vvv Auto Plays */
 
+.tex1, .tex2 {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+#moon-svg {
+  width: 600px;
+  height: 600px;
+}
+
 #moon-path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
-    animation: dash 1s linear forwards;
+    animation: dash 2s linear forwards;
   }
   
   @keyframes dash {
@@ -36,6 +51,7 @@ body {
     text-decoration: underline;
   }
 
+/* 
   .moonstx:p
 
 #sun-path {
@@ -53,10 +69,10 @@ body {
     }
   }
 
-  /* #sun-path:hover {
+  #sun-path:hover {
     fill: rgb(47, 13, 0);
-  } */
+  }
 
   .sunstx {
     color: bisque;
-  }
+  } */
