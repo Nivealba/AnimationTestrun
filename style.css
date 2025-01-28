@@ -9,17 +9,63 @@ body {
     align-items: center;
 }
 
-/* vvv Auto Plays */
-
 .tex1, .tex2 {
   color: aliceblue;
   font-weight: 600;
   font-size: xx-large;
 }
 
+.tex1 {
+  margin-bottom: 2%;
+}
+
+.tex2 {
+  margin-top: 2%;
+}
+
+.tex1, .tex2 {
+  padding-bottom:10px;
+  background:
+    linear-gradient(90deg,currentColor calc(50% - 5px),#0000 0 calc(50% + 5px),currentColor 0) bottom 8px left 0/100% 2px,
+    linear-gradient(90deg,currentColor calc(50% - 5px),#0000 0 calc(50% + 5px),currentColor 0) bottom 4px  left 0/100% 2px,
+
+    linear-gradient( 45deg,#0000 calc(50% - 1px),currentColor 0 calc(50% + 1px),#0000 0) left  calc(50% + 2.5px) bottom 8px/6px 6px,
+    linear-gradient(-45deg,#0000 calc(50% - 1px),currentColor 0 calc(50% + 1px),#0000 0) right calc(50% + 2.5px) bottom 8px/6px 6px,
+
+    linear-gradient( 45deg,#0000 calc(50% - 1px),currentColor 0 calc(50% + 1px),#0000 0) right calc(50% + 2.5px) bottom 0  /6px 6px,
+    linear-gradient(-45deg,#0000 calc(50% - 1px),currentColor 0 calc(50% + 1px),#0000 0) left  calc(50% + 2.5px) bottom 0  /6px 6px;
+  background-repeat: no-repeat;
+  -webkit-mask:
+     linear-gradient(#000 0 0) top    /100% calc(100% - 14px),
+     linear-gradient(#000 0 0) bottom /var(--p,0%) 14px;
+  -webkit-mask-repeat:no-repeat;
+  transition: 0.5s; 
+}
+
+
+.tex1:hover, .tex2:hover {
+  --p:100%;
+}
+
 #moon-svg {
+  color: antiquewhite;
   width: 600px;
   height: 600px;
+}
+
+#moon-svg {
+  padding: 10px;
+  background:
+    linear-gradient(currentColor 0 0) 50% var(--d,0px),
+    linear-gradient(currentColor 0 0) var(--d,0px) 50%,
+    linear-gradient(currentColor 0 0) 50% calc(100% - var(--d,0px)),
+    linear-gradient(currentColor 0 0) calc(100% - var(--d,0px)) 50%;
+  background-size: 100% 2px,2px 100%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+#moon-svg:hover {
+  --d:100px;
 }
 
 #moon-path {
