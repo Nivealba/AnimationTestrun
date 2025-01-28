@@ -71,7 +71,7 @@ body {
 #moon-path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
-    animation: dash 2s ease-in-out infinite alternate;
+    animation: dash 5s ease-in-out infinite alternate;
   }
   
   @keyframes dash {
